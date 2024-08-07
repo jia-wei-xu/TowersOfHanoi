@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Towers of Hanoi</title>
+</head>
+<body>
+    <input type = "text" placeholder = "Disk #" value = "3" oninput = "edit()" id = "disks">
+
+    <button onclick = "solve()">Solve</button>
+
+    <button onclick = "visualize()">Visualize</button>
+
+    <br><br><br>
+
+    <canvas width = "1000px" height = "500px"></canvas>
+
+    <script src = "hanoi.js"></script>
+</body>
+</html>
